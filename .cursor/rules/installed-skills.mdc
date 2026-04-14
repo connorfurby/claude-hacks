@@ -1,0 +1,33 @@
+---
+description: Consult installed skills before implementing in this repo
+alwaysApply: true
+---
+
+# Installed Skills
+
+Before implementing or reviewing code in this repository, check whether any of these installed skills are relevant and follow them when they apply:
+
+- `update-cli-config`
+- `migrate-to-skills`
+- `create-subagent`
+- `shell`
+- `find-skills`
+- `create-hook`
+- `create-rule`
+- `create-skill`
+- `statusline`
+- `update-cursor-settings`
+- `babysit`
+- `ai-sdk`
+- `ai-elements`
+- `streamdown`
+- `building-components`
+- `web-design-guidelines`
+- `next-best-practices`
+- `next-cache-components`
+- `next-upgrade`
+- `vercel-react-best-practices`
+- `vercel-composition-patterns`
+- `vercel-react-native-skills`
+
+Prefer the Next.js-related skills for Next.js app work, and prefer UI/component skills for frontend component work.
