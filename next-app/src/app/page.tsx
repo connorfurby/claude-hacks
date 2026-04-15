@@ -1,5 +1,6 @@
 import { queries } from "@/lib/db";
 import Link from "next/link";
+import CreateSpaceForm from "@/components/CreateSpaceForm";
 
 export const dynamic = "force-dynamic";
 
@@ -56,6 +57,7 @@ export default async function HomePage() {
               ))}
             </div>
           </section>
+          <CreateSpaceForm />
         </div>
       </div>
     </div>

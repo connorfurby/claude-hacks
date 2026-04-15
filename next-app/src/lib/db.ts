@@ -112,6 +112,11 @@ export const queries = {
     if (error) throw error;
   },
 
+  createSpace: async (id: string, name: string, type: "university" | "city"): Promise<void> => {
+    const { error } = await db().from("spaces").insert({ id, name, type });
+    if (error) throw error;
+  },
+
   incrementPostCount: async (topicId: string): Promise<void> => {
     const { error } = await db().rpc("increment_post_count", { p_topic_id: topicId });
     if (error) throw error;
